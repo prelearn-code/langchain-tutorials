@@ -25,6 +25,7 @@ pip install -U langchain langchain-core langchain-openai langchain-ollama
 
 ```bash
 export DEEPSEEK_API_KEY="your_deepseek_key"
+export DEEPSEEK_BASE_URL="https://api.deepseek.com"
 python new_arch_examples/01_basic_chat_deepseek.py
 python new_arch_examples/02_prompt_chain_deepseek.py
 ```

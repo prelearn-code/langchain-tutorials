@@ -136,12 +136,12 @@ jupyterlab-widgets==3.0.9
 jupyterlab_server==2.25.0
 kiwisolver==1.4.5
 kubernetes==28.1.0
-langchain==0.0.352
+langchain>=0.3.0
 langchain-cli==0.0.9
-langchain-community==0.0.6
-langchain-core==0.1.10
-langchain-experimental==0.0.47
-langchain-openai==0.0.2.post1
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-experimental>=0.3.0
+langchain-openai>=0.2.0
 langchainhub==0.1.14
 langdetect==1.0.9
 langserve==0.0.19
@@ -357,3 +357,5 @@ xmltodict==0.13.0
 xxhash==3.4.1
 yarl==1.9.2
 zipp==3.17.0
+langchain-ollama>=0.2.0
+langchain-text-splitters>=0.3.0

@@ -102,3 +102,10 @@ As an open-source project in a rapidly developing field, we are extremely open t
 Submit a PR with notes.
 
 This repo and series is provided by [DataIndependent](https://dataindependent.com/) and run by [Greg Kamradt](https://twitter.com/GregKamradt)
+## 🆕 LangChain 新架构（DeepSeek / Ollama 双版本）
+
+已新增 `new_arch_examples/` 目录，所有示例均提供双版本：
+- DeepSeek API 调用版本（`*_deepseek.py`）
+- 本地 Ollama `qwen2.5:7b` 版本（`*_ollama.py`）
+
+详情见：`new_arch_examples/README.md`。
